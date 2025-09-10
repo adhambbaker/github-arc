@@ -8,7 +8,7 @@ githubConfigSecret: arc-runner-set-gha-rs-github-secret
 controllerServiceAccount:
   name: arc-controller-sa
   namespace: arc-system
-minRunners: 1
+minRunners: 0
 
 # # listenerTemplate:
 # #   metadata: 
