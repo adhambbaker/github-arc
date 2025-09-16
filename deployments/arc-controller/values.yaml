@@ -8,6 +8,9 @@ serviceAccount:
   # You can not use the default service account for this.
   name: "arc-controller-sa"
   
+podSecurityContext:
+  fsGroup: 1001
+
 podAnnotations:
   k8s.grafana.com/scrape: "true"
   k8s.grafana.com/metrics.portNumber: "8080"
