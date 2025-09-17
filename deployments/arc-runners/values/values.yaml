@@ -183,13 +183,13 @@ template:
           drop:
             - ALL
         runAsNonRoot: true
-        runAsUser: 1000770001
-        runAsGroup: 1000770001
+        runAsUser: 10007700100
+        runAsGroup: 1000770100
       # # securityContext:
       # #   runAsUser: 1000680001
       # #   runAsGroup: 1000680001
       # #   fsGroup: 1000680001
-        privileged: true
+        # privileged: true
       env:
         - name: ACTIONS_RUNNER_CONTAINER_HOOKS
           value: /home/runner/k8s/index.js
