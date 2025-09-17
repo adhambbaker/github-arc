@@ -183,8 +183,9 @@ template:
           drop:
             - ALL
         runAsNonRoot: true
-        runAsUser: 10007700100
-        runAsGroup: 1000770100
+        runAsUser: 1000770010
+        runAsGroup: 1000770010
+        # fsGroup: 1000770010
       # # securityContext:
       # #   runAsUser: 1000680001
       # #   runAsGroup: 1000680001
