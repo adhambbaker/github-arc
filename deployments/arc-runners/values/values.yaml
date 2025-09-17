@@ -183,8 +183,8 @@ template:
           drop:
             - ALL
         runAsNonRoot: true
-        runAsUser: 1000680010
-        runAsGroup: 123
+        runAsUser: 1000670001
+        # runAsGroup: 123
         # privileged: true
       env:
         - name: ACTIONS_RUNNER_CONTAINER_HOOKS
