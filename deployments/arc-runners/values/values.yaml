@@ -184,7 +184,7 @@ template:
             - ALL
         runAsNonRoot: true
         runAsUser: 1000700001
-        # runAsGroup: 1000700001
+        runAsGroup: 1000700001
         # fsGroup: 1000700001
       # # securityContext:
       # #   runAsUser: 1000680001
