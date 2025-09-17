@@ -9,7 +9,7 @@ serviceAccount:
   name: "arc-controller-sa"
   
 podSecurityContext:
-  fsGroup: 123
+  fsGroup: 1000670000
 
 securityContext:
   capabilities:
