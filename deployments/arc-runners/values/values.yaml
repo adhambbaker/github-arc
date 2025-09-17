@@ -178,7 +178,7 @@ template:
       image: ghcr.io/actions/actions-runner:latest
       command: ["/home/runner/run.sh"]
       securityContext:
-        allowPrivilegeEscalation: false
+        allowPrivilegeEscalation: true
         capabilities:
           drop:
             - ALL
