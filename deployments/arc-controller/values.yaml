@@ -8,8 +8,8 @@ serviceAccount:
   # You can not use the default service account for this.
   name: "arc-controller-sa"
   
-podSecurityContext:
-  fsGroup: 1000680001
+# podSecurityContext:
+#   fsGroup: 1000680001
 
 securityContext:
   capabilities:
