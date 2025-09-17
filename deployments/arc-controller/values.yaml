@@ -11,6 +11,14 @@ serviceAccount:
 podSecurityContext:
   fsGroup: 123
 
+securityContext: {}
+  capabilities:
+    drop:
+    - ALL
+  readOnlyRootFilesystem: true
+  runAsNonRoot: true
+  runAsUser: 1000680000
+
 podAnnotations:
   k8s.grafana.com/scrape: "true"
   k8s.grafana.com/metrics.portNumber: "8080"
