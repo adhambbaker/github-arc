@@ -185,7 +185,7 @@ template:
         runAsNonRoot: true
         runAsUser: 1000770010
         runAsGroup: 1000770010
-        # fsGroup: 1000770010
+        fsGroup: 1000770010
       # # securityContext:
       # #   runAsUser: 1000680001
       # #   runAsGroup: 1000680001
