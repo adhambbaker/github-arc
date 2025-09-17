@@ -11,13 +11,13 @@ serviceAccount:
 # podSecurityContext:
 #   fsGroup: 1000680001
 
-securityContext:
-  capabilities:
-    drop:
-    - ALL
-  readOnlyRootFilesystem: true
-  runAsNonRoot: true
-  runAsUser: 1000670001
+# securityContext:
+#   capabilities:
+#     drop:
+#     - ALL
+#   readOnlyRootFilesystem: true
+#   runAsNonRoot: true
+#   runAsUser: 1000670001
 
 podAnnotations:
   k8s.grafana.com/scrape: "true"
