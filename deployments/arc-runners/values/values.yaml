@@ -181,6 +181,7 @@ template:
         readOnlyRootFilesystem: true
         runAsUser: 1000680001
         runAsGroup: 1000680001
+        fsGroup: 1000680001
       # # securityContext:
       # #   runAsUser: 1000680001
       # #   runAsGroup: 1000680001
