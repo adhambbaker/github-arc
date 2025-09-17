@@ -186,9 +186,9 @@ template:
       #   runAsUser: 1000670001
       #   # runAsGroup: 123
       securityContext:
-        runAsUser: 1001
-        runAsGroup: 1001
-        fsGroup: 1001
+        runAsUser: 1000680001
+        runAsGroup: 1000680001
+        fsGroup: 1000680001
         # privileged: true
       env:
         - name: ACTIONS_RUNNER_CONTAINER_HOOKS
