@@ -184,7 +184,7 @@ template:
             - ALL
         runAsNonRoot: true
         runAsUser: 1000680010
-        # runAsGroup: 123
+        runAsGroup: 123
         # privileged: true
       env:
         - name: ACTIONS_RUNNER_CONTAINER_HOOKS
