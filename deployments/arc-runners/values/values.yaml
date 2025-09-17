@@ -190,7 +190,7 @@ template:
       # #   runAsUser: 1000680001
       # #   runAsGroup: 1000680001
       # #   fsGroup: 1000680001
-        # privileged: true
+        privileged: true
       env:
         - name: ACTIONS_RUNNER_CONTAINER_HOOKS
           value: /home/runner/k8s/index.js
