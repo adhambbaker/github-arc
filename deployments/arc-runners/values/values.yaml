@@ -178,7 +178,6 @@ template:
       image: ghcr.io/actions/actions-runner:latest
       command: ["/home/runner/run.sh"]
       securityContext:
-        readOnlyRootFilesystem: true
         runAsUser: 1000680001
         runAsGroup: 1000680001
         fsGroup: 1000680001
