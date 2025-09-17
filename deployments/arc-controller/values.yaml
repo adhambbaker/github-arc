@@ -11,7 +11,7 @@ serviceAccount:
 podSecurityContext:
   fsGroup: 123
 
-securityContext: {}
+securityContext:
   capabilities:
     drop:
     - ALL
