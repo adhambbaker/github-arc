@@ -178,11 +178,11 @@ template:
       image: ghcr.io/actions/actions-runner:latest
       command: ["/home/runner/run.sh"]
       securityContext:
-        # allowPrivilegeEscalation: false
-        # capabilities:
-        #   drop:
-        #     - ALL
-        # runAsNonRoot: true
+        allowPrivilegeEscalation: false
+        capabilities:
+          drop:
+            - ALL
+        runAsNonRoot: true
         runAsUser: 1000770010
         runAsGroup: 1000770001
         # fsGroup: 1000770010
