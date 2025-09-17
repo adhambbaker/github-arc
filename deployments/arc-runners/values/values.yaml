@@ -183,7 +183,7 @@ template:
           drop:
             - ALL
         runAsNonRoot: true
-        runAsUser: 1000670001
+        runAsUser: 1001
         # runAsGroup: 123
         # privileged: true
       env:
