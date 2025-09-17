@@ -9,7 +9,7 @@ serviceAccount:
   name: "arc-controller-sa"
   
 podSecurityContext:
-  fsGroup: 1000670001
+  fsGroup: 1000680001
 
 securityContext:
   capabilities:
@@ -17,7 +17,7 @@ securityContext:
     - ALL
   readOnlyRootFilesystem: true
   runAsNonRoot: true
-  runAsUser: 1000680001
+  runAsUser: 1000670001
 
 podAnnotations:
   k8s.grafana.com/scrape: "true"
